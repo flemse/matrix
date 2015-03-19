@@ -1,0 +1,7 @@
+<div {{bind-attr style=leftWidth}}>
+  {{load-trigger}}
+  {{#each rows as |row|}}
+    {{matrix-row row=row}}
+  {{/each}}
+  {{load-trigger}}
+</div>

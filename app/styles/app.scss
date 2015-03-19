@@ -1,0 +1,17 @@
+.matrix-container {
+  border: 1px solid black;
+  overflow: scroll;
+
+  .matrix-row {
+    border: 1px solid black;
+    white-space: nowrap;
+    display: inline-block;
+
+    .matrix-field {
+      border: 1px solid black;
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+    }
+  }
+}
